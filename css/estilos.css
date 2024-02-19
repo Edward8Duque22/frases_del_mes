@@ -1,0 +1,187 @@
+/* CUENTA REGRESIVA */
+
+#cuentaRegresiva {
+    position: fixed;
+    top: 3.5px;
+    right: 43px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/* ---------------------- */
+p {
+    margin: 0 0 10px 0;
+}
+
+details {
+    margin: 40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+summary {
+    padding: 10px;
+    background-color: gray;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Estilo para ocultar el contenido por defecto */
+details[open] summary {
+    background-color: #2980b9;
+}
+
+details > div {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+ul>li{
+    list-style: none; /* Esto quita los puntos o viñetas */
+    padding: 0; /* Opcional: Puedes quitar el espacio adicional a la izquierda */
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+
+.modal-content {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+/*.open-modal-btn {
+    background-color: lightgreen;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+    border-color: transparent;
+    width: auto;
+    height: auto;
+
+}*/
+
+.open-modal-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: green;
+    border: 1px solid #2980b9;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.open-modal-btn:hover {
+    background-color: #2980b9;
+    border-color: #3498db;
+}
+
+/* Estilo adicional para cerrar la ventana modal */
+/*.close-modal-btn {
+    cursor: pointer;
+    color: #e74c3c;
+    text-decoration: none;
+    float: right;
+}
+
+.close-modal-btn:hover {
+    color: #c0392b;
+}*/
+
+.close-modal-btn {
+    background: red;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+    cursor: pointer;
+}
+.close-modal-btn:hover {
+    background: darkred;
+}
+
+/*Calendario*/
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+.month {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    grid-column: span 7;
+}
+.day {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 9999;
+}
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
