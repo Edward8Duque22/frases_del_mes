@@ -774,11 +774,71 @@ function openModalFebrero19() {
     showConfirmButton: false,
   });
 }
-
-/*function openModalFebrero17() {
+/*//Febrero 20
+function openModalFebrero20() {
   Swal.fire({
     icon: 'custom',
-    imageUrl: 'images/febrero.png',
+    imageUrl: 'images/febrero20.png',
+    imageWidth: 100,
+    imageHeigth: 100,
+    title: 'Quiero que todo el mundo te conozca...',
+    text: 'Eres mi persona favorita en todo el mundo.',
+    //confirmButtonText: 'Cerrar Mensaje', // Modifica el texto del botón
+    timer: 5000,
+    timerProgressBar: true,
+    showConfirmButton: false,
+  });
+}
+//Febrero 21
+function openModalFebrero21() {
+  Swal.fire({
+    icon: 'custom',
+    imageUrl: 'images/febrero21.png',
+    imageWidth: 100,
+    imageHeigth: 100,
+    title: '¿Qué pone feliz a un hombre?...',
+    text: 'Feliz es el hombre que encuentra una verdadera amiga, y aun más feliz, el que la encuentra en su esposa.',
+    //confirmButtonText: 'Cerrar Mensaje', // Modifica el texto del botón
+    timer: 5000,
+    timerProgressBar: true,
+    showConfirmButton: false,
+  });
+}
+//Febrero 22
+function openModalFebrero22() {
+  Swal.fire({
+    icon: 'custom',
+    imageUrl: 'images/febrero22.png',
+    imageWidth: 100,
+    imageHeigth: 100,
+    title: 'No te lastimaría...',
+    text: 'Aquí estás, eres mía, tratando de darme lo que tienes. ¿Cómo podría siquiera lastimarte?.',
+    //confirmButtonText: 'Cerrar Mensaje', // Modifica el texto del botón
+    timer: 5000,
+    timerProgressBar: true,
+    showConfirmButton: false,
+  });
+}
+//Febrero 23
+function openModalFebrero23() {
+  Swal.fire({
+    icon: 'custom',
+    imageUrl: 'images/febrero23.png',
+    imageWidth: 100,
+    imageHeigth: 100,
+    title: 'Bellisíma...',
+    text: 'Es hermosa y se lo digo todos los días.',
+    //confirmButtonText: 'Cerrar Mensaje', // Modifica el texto del botón
+    timer: 5000,
+    timerProgressBar: true,
+    showConfirmButton: false,
+  });
+}
+//Febrero 24
+function openModalFebrero24() {
+  Swal.fire({
+    icon: 'custom',
+    imageUrl: 'images/febrero24.png',
     imageWidth: 100,
     imageHeigth: 100,
     title: 'Cosas que cambian mi día...',
@@ -788,8 +848,82 @@ function openModalFebrero19() {
     timerProgressBar: true,
     showConfirmButton: false,
   });
+}
+//Febrero 25
+function openModalFebrero25() {
+  Swal.fire({
+    icon: 'custom',
+    imageUrl: 'images/febrero25.png',
+    imageWidth: 100,
+    imageHeigth: 100,
+    title: 'No sé...',
+    text: 'Creo que eres mucho mejor que la chica de mis sueños... Eres toda una maravilla.',
+    //confirmButtonText: 'Cerrar Mensaje', // Modifica el texto del botón
+    timer: 5000,
+    timerProgressBar: true,
+    showConfirmButton: false,
+  });
+}
+//Febrero 26
+function openModalFebrero26() {
+  Swal.fire({
+    icon: 'custom',
+    imageUrl: 'images/febrero26.png',
+    imageWidth: 100,
+    imageHeigth: 100,
+    title: '¿Qué es lo que más me llama la atención?...',
+    text: 'Es su sonrisa, es que no veo algo más hermoso en este mundo que ver como se ilumina y refracta la luz, es como si fuera una estrella.',
+    //confirmButtonText: 'Cerrar Mensaje', // Modifica el texto del botón
+    timer: 5000,
+    timerProgressBar: true,
+    showConfirmButton: false,
+  });
+}
+//Febrero 27
+function openModalFebrero27() {
+  Swal.fire({
+    icon: 'custom',
+    imageUrl: 'images/febrero27.png',
+    imageWidth: 100,
+    imageHeigth: 100,
+    title: 'He pasado muchos amores pero...',
+    text: 'Después del primer amor llega tu amor verdadero, un amor real. Ese que te hace soñar, te hace amar la vida y amarle.',
+    //confirmButtonText: 'Cerrar Mensaje', // Modifica el texto del botón
+    timer: 5000,
+    timerProgressBar: true,
+    showConfirmButton: false,
+  });
+}
+//Febrero 28
+function openModalFebrero28() {
+  Swal.fire({
+    icon: 'custom',
+    imageUrl: 'images/febrero28.png',
+    imageWidth: 100,
+    imageHeigth: 100,
+    title: 'No te amo por tu belleza...',
+    text: 'Te amo porque cantas la canción que solo yo puedo entender.',
+    //confirmButtonText: 'Cerrar Mensaje', // Modifica el texto del botón
+    timer: 5000,
+    timerProgressBar: true,
+    showConfirmButton: false,
+  });
+}
+//Febrero 29
+function openModalFebrero29() {
+  Swal.fire({
+    icon: 'custom',
+    imageUrl: 'images/febrero29.png',
+    imageWidth: 100,
+    imageHeigth: 100,
+    title: '¿Puede ser difícil?...',
+    text: 'No importa lo difícil que sea estar juntos, nada es más difícicl que estar separados.',
+    //confirmButtonText: 'Cerrar Mensaje', // Modifica el texto del botón
+    timer: 5000,
+    timerProgressBar: true,
+    showConfirmButton: false,
+  });
 }*/
-
 
 /*MENSAJE DE NO CONTENIDO*/
 function openModalFebrero20() {
